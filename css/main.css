@@ -203,11 +203,7 @@ footer p{
 
 @media (max-width:768px) {
 
-    #intro, #equipo{
-        width:90% !important;
-        margin:auto;
-    }
-
+    
     
     #img-equipo{
         max-height:20rem !important;
@@ -242,5 +238,17 @@ footer p{
         flex-wrap:wrap !important;
         justify-content: center !important;
         text-align: center;
+    }
+
+    .cardlocales{
+        flex-wrap: wrap;
+        margin: 30px;
+
+    }
+    
+     
+    #img-equipo{
+        max-height:20rem !important;
+        width:100%;
     }
 }
