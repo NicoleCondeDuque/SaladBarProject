@@ -247,7 +247,7 @@ footer p{
     }
     
     .equipo1{
-        margin: 30px 40px;
+    justify-content: space-around;
     
         
     }
@@ -258,6 +258,6 @@ footer p{
     }
 
     #seccion-contacto{
-        margin: 50px 50px;
+        margin: 50px 40px;
     }
 }
