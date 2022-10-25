@@ -242,7 +242,7 @@ footer p{
 
     .cardlocales{
         flex-wrap: wrap;
-        margin: 10px;
+        margin: 10px 5px 
 
     }
     
@@ -250,5 +250,9 @@ footer p{
     #img-equipo{
         max-height:20rem !important;
         width: 20%;
+    }
+
+    #seccion-contacto{
+        margin: 30px;
     }
 }
