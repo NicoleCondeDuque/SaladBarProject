@@ -246,13 +246,18 @@ footer p{
 
     }
     
-     
+    .equipo1{
+        margin: 30px 40px;
+    
+        
+    }
+
     #img-equipo{
         max-height:20rem !important;
         width: 20%;
     }
 
     #seccion-contacto{
-        margin: 30px;
+        margin: 50px 50px;
     }
 }
