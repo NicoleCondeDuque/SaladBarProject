@@ -1,0 +1,28 @@
+/*inicio de pagina*/
+@import "./reset/reset";
+
+/*barra de navegacion*/
+@import "./componentes/navbar";
+
+/*seccion cartas en menu*/
+@import "./componentes/card";
+
+/* view en grids index*/
+@import "./layout/body";
+
+/*modificaciones del footer*/
+@import "./componentes/footer";
+
+/*modificacion de letras en el menu*/
+@import "./componentes/_menu";
+
+/*seccion productos*/
+@import "./componentes/coffee"; 
+
+/*seccion de contactanos*/
+@import "./componentes/contactos";
+
+/* modificaciones de tamanos*/
+@import "./views/queries";
+
+

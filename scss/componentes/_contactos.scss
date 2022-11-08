@@ -1,0 +1,40 @@
+
+#local {
+    margin-top: 100px;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+
+#bg-contactos {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #fffbfb;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    margin-top: 20px;
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#titulo-formulario {
+    color: #000000;
+    margin-top: 100px;
+}
+
+.contactoform {
+    margin-top: 50px;
+}
