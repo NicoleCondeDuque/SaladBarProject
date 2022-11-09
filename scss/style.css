@@ -20,7 +20,7 @@ body {
   color: grey;
 }
 #menu a:hover {
-  color: black;
+  color: #000000;
 }
 
 /*seccion cartas en menu*/
@@ -170,7 +170,7 @@ footer p {
   text-decoration: none;
   display: inline-block;
   padding: 10px;
-  color: #020202;
+  color: #000000;
   border: 1px solid #000000;
   border-radius: 4px;
   transition: all 400ms ease;
@@ -207,7 +207,7 @@ footer p {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(255, 255, 255);
+  background: #fffbfb;
   border-radius: 5px;
 }
 
@@ -268,8 +268,13 @@ footer p {
     flex-wrap: wrap;
     width: 70%;
   }
+  #equipo1 {
+    position: fixed;
+    max-width: 5%;
+  }
   #seccion-contacto {
     margin: 50px 40px;
+    flex-flow: wrap;
   }
   .container {
     flex-flow: wrap;

@@ -1,3 +1,6 @@
+$colorContactos: #000000;
+$backgroundContactos:  #fffbfb;
+
 
 #local {
     margin-top: 100px;
@@ -26,12 +29,12 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(255, 255, 255);
+    background: $backgroundContactos;
     border-radius: 5px;
 }
 
 #titulo-formulario {
-    color: #000000;
+    color: $colorContactos;
     margin-top: 100px;
 }
 

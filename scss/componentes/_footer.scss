@@ -1,10 +1,14 @@
+$backgroundFooter:#000000;
+$colorFooter:#f3f3f3;
+
+
 
 footer {
-    background: #000000;
+    background: $backgroundFooter;
     min-height: 100px;
   
     p {
-        color: #f3f3f3;
+        color: $colorFooter;
         text-align: center;
     }
 }
@@ -13,7 +17,7 @@ footer {
     i {
         font-size: 26px;
         padding: 0 8px;
-        color: #f3f3f3;
+        color: $colorFooter;
     }
 }
 

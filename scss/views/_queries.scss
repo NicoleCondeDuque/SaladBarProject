@@ -18,11 +18,7 @@
 }
 
 
-
-@media (max-width:768px) {
-
-    
-  
+@media (max-width:768px) {  
     .wrapper-local {
         width:90%;
         margin:auto;
@@ -52,8 +48,6 @@
 
 
 @media (max-width: 576px) {
-    
-   
     .icono-wrap{
         flex-wrap:wrap !important;
         justify-content: center !important;
@@ -66,10 +60,16 @@
 
     }
     
+    #equipo1{
+        position: fixed;
+        max-width: 5%;
+
+    }
 
 
     #seccion-contacto{
         margin: 50px 40px;
+        flex-flow: wrap;
     }
 
     .container {
