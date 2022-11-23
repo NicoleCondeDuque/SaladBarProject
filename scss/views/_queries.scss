@@ -14,9 +14,10 @@
     padding-top:50px;    
    }
 
-
- 
+   
 }
+ 
+
 
 
 @media (max-width:768px) {  
@@ -38,12 +39,6 @@
       
     }
 
-    .cardmenu{
-        flex-wrap: wrap;
-        margin: 20px; 
-        size: 20px;
-
-    }
 
 
     #seccion-contacto{
@@ -51,6 +46,8 @@
         margin-right: 90px;
         flex-flow: wrap;
     } 
+
+    
     
 }
 
@@ -64,7 +61,8 @@
 
     .cardmenu{
         flex-wrap: wrap;
-        width:70%
+        width:70%;
+        margin-left: 20px;
     }   
 
     .cardmenu .front h3{

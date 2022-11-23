@@ -34,6 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 30px;
+  margin-left: 45px;
 }
 .cardmenu .face {
   position: absolute;
@@ -254,11 +255,6 @@ footer p {
     flex-flow: wrap;
     margin: 20px;
   }
-  .cardmenu {
-    flex-wrap: wrap;
-    margin: 20px;
-    size: 20px;
-  }
   #seccion-contacto {
     margin: 50px;
     margin-right: 90px;
@@ -274,6 +270,7 @@ footer p {
   .cardmenu {
     flex-wrap: wrap;
     width: 70%;
+    margin-left: 20px;
   }
   .cardmenu .front h3 {
     height: 80px;
