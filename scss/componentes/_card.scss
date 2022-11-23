@@ -1,4 +1,4 @@
-$menu1: #fff;
+$menu1: rgb(0, 0, 0);
 $menu2: #f3f3f3;
 $background-menu1: rgb(0, 0, 0);
 $background-menu2:  grey (148, 48, 48, 0.4);
@@ -13,7 +13,8 @@ $background-menu2:  grey (148, 48, 48, 0.4);
     padding: 30px 30px 30px 30px;
     justify-content: space-between;
     align-items: center;
-    margin: 60px;
+    margin: 30px;
+   
 
     .face {
         position: absolute;
@@ -40,11 +41,12 @@ $background-menu2:  grey (148, 48, 48, 0.4);
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 45px;
+            height: 35px;
             line-height: 45px;
             color: $menu1;
             background: $background-menu2;
             text-align: center;
+           
         }
     }
 
@@ -75,5 +77,3 @@ $background-menu2:  grey (148, 48, 48, 0.4);
         }
     }
 }
-
-
